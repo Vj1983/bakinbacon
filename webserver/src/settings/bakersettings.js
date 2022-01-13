@@ -98,6 +98,8 @@ const BakerSettings = (props) => {
 						<Form.Control as="select" name="uiexplorer" value={bakerSettings["uiexplorer"]} onChange={(e) => handleUpdate(e)} >
 							<option value="tzstats.com">TZStats</option>
 							<option value="tzkt.io">TzKt</option>
+							<option value="granadanet.tzkt.io">TzKt-granadanet</option>
+							<option value="hangzhou2net.tzkt.io">TzKt-hangzhounet</option>
 						</Form.Control>
 						<Form.Text className="text-muted">Block Explorer - Which explorer the UI uses when viewing operations.</Form.Text>
 					</Form.Group>
